@@ -1,0 +1,528 @@
+body
+{
+    margin: 0px;
+    width: 100%;
+	background-color: #2A2529;
+    color: white;
+    font-size: 30px;
+
+}
+
+h2
+{
+   text-align: center; 
+}
+
+nav
+{
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    z-index: 99999;
+    font-family: 'Metal Mania', cursive;
+}
+
+
+nav .navigation
+{
+    position: relative;
+    height: 70px;
+    width: auto;
+	background-color: #393333;
+    opacity: 0.8;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    text-align: center;
+}
+/*  
+nav .navigation:hover
+{
+    opacity: .9;
+
+}
+
+*/
+nav .navigation img 
+{
+    position: absolute;
+    left: 0;
+    height: 100%;
+
+}
+
+
+nav .navigation .hamburger
+{
+    position: absolute;
+    font-size: 30px;
+    right: 0.55em;
+    top: 0.4em;
+    border: none;
+    cursor: pointer;
+    color: azure;
+ 	background-color: #393333;
+    -webkit-transition: color 0.3s ease-in-out;
+   
+}
+
+nav .navigation .hamburger:hover
+{
+    color: black;
+    text-shadow: -1px 0px 3px rgba(255, 255, 255, 1);
+}
+
+
+
+nav .navigation .cross
+{
+    position: absolute;
+    font-size: 30px;
+    right: 0.57em;
+    top: 0.4em;
+    border: none;
+    display: none;
+    cursor: pointer;
+    color: azure;
+	background-color: #393333;
+    -webkit-transition: color 0.3s ease-in-out;
+          
+}
+
+nav .navigation .cross:hover
+{
+    color: black;
+    text-shadow: -1px 0px 3px rgba(255, 255, 255, 1);
+}
+
+nav .navigation ul
+{
+    display: none;
+}
+
+
+
+nav .menu
+{
+    width: 100%;
+    display: none;
+    
+}
+
+nav .menu ul
+{
+    list-style-type: none;
+	list-style-image: none;
+    padding: 0;
+    margin: 0;
+    
+
+    
+}
+
+nav .menu ul:first-child
+{
+    border-top: black solid .01em;
+    
+}
+
+nav .menu ul li 
+{
+
+    padding: 0.15em;
+    text-align: center;
+    height: 1.4em;
+    border-bottom: black solid .01em;
+	background-color: #393333;
+    opacity: .8;
+    -webkit-transition: opacity 0.3s ease-in-out;
+   
+}
+
+nav .menu ul li:hover a
+{
+     opacity: .9;
+     color: black;
+     text-shadow: -1px 0px 3px rgba(255, 255, 255, 1);
+
+    
+}
+nav .menu ul li:hover
+{
+     opacity: 0.9;
+
+    
+}
+
+nav .menu ul li a
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+
+
+
+.logo
+{
+    margin: 0; 
+    padding: 0;
+    
+}
+
+.logo img 
+{
+    width: 100%;
+    padding: 0;
+
+}
+
+.content
+{  
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.socialmedia
+{
+    -webkit-transition: color 0.3s ease-in-out;   
+}
+
+.socialmedia a
+{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease-in-out;
+
+}
+
+.socialmedia a:hover
+{
+    color:black;
+}
+
+
+.socialmedia .fb
+{
+    height: 123px;
+    background-color: #3b5998;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    //-webkit-transition: all 3s ease-in-out;
+    
+}
+
+.socialmedia .fb:hover
+{
+    background-color: #4c6aa9;
+    color: black;
+
+}
+
+
+.socialmedia .sc
+{
+    height: 123px;
+    background-color: #ff7700;
+    text-align: center;
+    -webkit-transition: background-color 0.3s ease-in-out;
+
+    
+}
+
+.socialmedia .sc:hover
+{
+    background-color: #ff8811;
+
+
+}
+
+.socialmedia .yt
+{
+    height: 123px;
+    background-color: #ff0000;
+    text-align: center;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    
+}
+
+.socialmedia .yt:hover
+{
+    background-color: #ff1111;
+    color: black;
+
+}
+
+.socialmedia .spotify
+{
+    height: 123px;
+    background-color: #6ae368;
+    text-align: center;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    
+}
+
+.socialmedia .spotify:hover
+{
+    background-color: #7bf479;
+
+}
+
+.socialmedia .insta
+{
+    height: 123px;
+    background-color: #ded1c1;
+    text-align: center;
+    -webkit-transition: background-color 3s ease-in-out;
+    
+}
+
+.socialmedia .insta:hover
+{
+    background-color: #efe2e2;
+
+}
+
+footer
+{
+    padding-top: 0.2em;
+    text-align: center;
+    height: 40px;
+    background-color: #000000;
+    
+}
+
+
+.video-container {
+
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    width: 100%;
+
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.member
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    height: 483px;
+      
+}
+
+.member img
+{
+    height: 100%;
+}
+@media screen and (min-width: 1000px) {
+    
+    .logo
+    {
+    margin-left: auto;
+    margin-right: auto;
+        width: 1000px;
+        
+    }
+    
+    .logo img 
+{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+    .content
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+        background-color: #F9F6F5;
+    }
+    
+    .socialmedia{
+        
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 123px;
+        background-color: black;
+    }
+    
+    .socials
+    {
+    width: 1000px;
+    height: 123px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-bottom: 1px solid white;
+    }
+    
+    .socialmedia .fb
+    {
+        float: left;
+        width: 200px;
+        height: 123px;
+    }
+    .socialmedia .sc
+    {
+        float: left;
+        width: 200px;
+        height: 123px;
+    }
+    .socialmedia .yt
+    {
+        float: left;
+        width: 200px;
+        height: 123px;
+    }
+    .socialmedia .spotify
+    {
+        float: left;
+        width: 200px;
+        height: 123px;
+    }
+    .socialmedia .insta
+
+    {
+        height: 123px;
+        width: 200px;
+        float: left;
+    }
+    footer
+    {
+        clear:both;
+    }
+    
+
+}
+@media screen and (min-width: 800px) {
+    
+    nav .navigation img 
+{
+        display: none !important;
+
+}
+    
+    nav .navigation .hamburger
+{
+
+        display: none !important;
+}
+    nav .navigation .cross
+{
+
+        display: none !important;
+}
+    nav .menu
+    {
+        display: none !important;        
+    }
+    
+    
+    
+    /* Menu zwykłe PC */
+
+    nav .navigation ul
+    {
+
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        display: inline-block;
+
+    }
+    nav .navigation ul li
+    {
+        height: 100%;
+        text-align: center;
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 15px;
+        display: block;
+
+  
+    }
+    
+
+    nav .navigation ul li a
+    {
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        display: block;
+        -webkit-transition: opacity .3s ease-in-out, color .3s ease-in-out ;
+        transition: opacity .5s ease-in-out, color .3s ease-in-out;
+    }
+    
+        nav .navigation ul li a:hover
+    
+    {
+        opacity: 0.8 ;
+        color: black;
+        text-shadow: -1px 0px 3px rgba(255, 255, 255, 1);
+    }
+
+/* Menu zwykłe PC */
+    
+    
+}
+
+
+@media screen and (min-width: 560px, max-width:1016px) {
+
+    .content
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .video-container {
+
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0;
+        height: 322px;
+        width: 100%;
+        
+
+    }
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+        position: relative;
+        width: 560px;
+        height: 315px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+}
+}
